@@ -1,0 +1,18 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "nodemon": "^1.3.7"
+  },
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 8080",
+    "start:watch": "nodemon -x npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timo Sand <timo.j.sand@gmail.com>",
+  "license": "MIT"
+}
